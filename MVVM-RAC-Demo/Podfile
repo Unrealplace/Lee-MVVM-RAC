@@ -6,5 +6,6 @@ target 'MVVM-RAC-Demo' do
   # use_frameworks!
 
   # Pods for MVVM-RAC-Demo
-
+pod 'ReactiveCocoa','~> 2.5'
+pod 'Masonry', '~> 1.0.2'
 end
