@@ -10,6 +10,9 @@
 		4DE6CA10BF8E48C89227F836 /* libPods-MVVM-RAC-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E82DE100846F0891C9F49C /* libPods-MVVM-RAC-Demo.a */; };
 		B61A8DC61EDD9E9E0042FF6B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B61A8DC51EDD9E9E0042FF6B /* User.m */; };
 		B61A8DC91EDD9EE80042FF6B /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B61A8DC81EDD9EE80042FF6B /* LoginViewModel.m */; };
+		B61A8DD41EDDAAD80042FF6B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61A8DD31EDDAAD80042FF6B /* MainViewController.m */; };
+		B61A8DD71EDDAF840042FF6B /* TableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B61A8DD61EDDAF840042FF6B /* TableViewModel.m */; };
+		B61A8DDA1EDDB0550042FF6B /* MainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B61A8DD91EDDB0550042FF6B /* MainCell.m */; };
 		B6DBD49E1EDD518900008466 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DBD49D1EDD518900008466 /* main.m */; };
 		B6DBD4A11EDD518900008466 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DBD4A01EDD518900008466 /* AppDelegate.m */; };
 		B6DBD4A41EDD518900008466 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DBD4A31EDD518900008466 /* ViewController.m */; };
@@ -24,12 +27,18 @@
 		B61A8DC51EDD9E9E0042FF6B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = ../User.m; sourceTree = "<group>"; };
 		B61A8DC71EDD9EE80042FF6B /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewModel.h; path = ../LoginViewModel.h; sourceTree = "<group>"; };
 		B61A8DC81EDD9EE80042FF6B /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewModel.m; path = ../LoginViewModel.m; sourceTree = "<group>"; };
+		B61A8DD21EDDAAD80042FF6B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B61A8DD31EDDAAD80042FF6B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B61A8DD51EDDAF840042FF6B /* TableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewModel.h; sourceTree = "<group>"; };
+		B61A8DD61EDDAF840042FF6B /* TableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewModel.m; sourceTree = "<group>"; };
+		B61A8DD81EDDB0550042FF6B /* MainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCell.h; sourceTree = "<group>"; };
+		B61A8DD91EDDB0550042FF6B /* MainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCell.m; sourceTree = "<group>"; };
 		B6DBD4991EDD518900008466 /* MVVM-RAC-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-RAC-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DBD49D1EDD518900008466 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6DBD49F1EDD518900008466 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6DBD4A01EDD518900008466 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B6DBD4A21EDD518900008466 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B6DBD4A31EDD518900008466 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6DBD4A21EDD518900008466 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		B6DBD4A31EDD518900008466 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		B6DBD4A61EDD518900008466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6DBD4A81EDD518900008466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6DBD4AB1EDD518900008466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,7 +82,8 @@
 				B61A8DC41EDD9E9E0042FF6B /* User.h */,
 				B61A8DC51EDD9E9E0042FF6B /* User.m */,
 			);
-			path = Model;
+			name = Model;
+			path = ../Model;
 			sourceTree = "<group>";
 		};
 		B61A8DCB1EDDA91A0042FF6B /* ViewModel */ = {
@@ -82,7 +92,8 @@
 				B61A8DC71EDD9EE80042FF6B /* LoginViewModel.h */,
 				B61A8DC81EDD9EE80042FF6B /* LoginViewModel.m */,
 			);
-			path = ViewModel;
+			name = ViewModel;
+			path = ../ViewModel;
 			sourceTree = "<group>";
 		};
 		B61A8DCC1EDDA93C0042FF6B /* View */ = {
@@ -90,7 +101,57 @@
 			children = (
 				B6DBD4A51EDD518900008466 /* Main.storyboard */,
 			);
+			name = View;
+			path = ../View;
+			sourceTree = "<group>";
+		};
+		B61A8DCD1EDDAA570042FF6B /* LoginClass */ = {
+			isa = PBXGroup;
+			children = (
+				B6DBD4A21EDD518900008466 /* ViewController.h */,
+				B6DBD4A31EDD518900008466 /* ViewController.m */,
+				B61A8DCA1EDDA9090042FF6B /* Model */,
+				B61A8DCB1EDDA91A0042FF6B /* ViewModel */,
+				B61A8DCC1EDDA93C0042FF6B /* View */,
+			);
+			path = LoginClass;
+			sourceTree = "<group>";
+		};
+		B61A8DCE1EDDAA7E0042FF6B /* MainClass */ = {
+			isa = PBXGroup;
+			children = (
+				B61A8DD21EDDAAD80042FF6B /* MainViewController.h */,
+				B61A8DD31EDDAAD80042FF6B /* MainViewController.m */,
+				B61A8DD11EDDAAC40042FF6B /* ViewModel */,
+				B61A8DD01EDDAA970042FF6B /* View */,
+				B61A8DCF1EDDAA8E0042FF6B /* Model */,
+			);
+			path = MainClass;
+			sourceTree = "<group>";
+		};
+		B61A8DCF1EDDAA8E0042FF6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B61A8DD01EDDAA970042FF6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B61A8DD81EDDB0550042FF6B /* MainCell.h */,
+				B61A8DD91EDDB0550042FF6B /* MainCell.m */,
+			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B61A8DD11EDDAAC40042FF6B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B61A8DD51EDDAF840042FF6B /* TableViewModel.h */,
+				B61A8DD61EDDAF840042FF6B /* TableViewModel.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		B6DBD4901EDD518900008466 = {
@@ -114,13 +175,10 @@
 		B6DBD49B1EDD518900008466 /* MVVM-RAC-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				B61A8DCC1EDDA93C0042FF6B /* View */,
-				B61A8DCB1EDDA91A0042FF6B /* ViewModel */,
-				B61A8DCA1EDDA9090042FF6B /* Model */,
+				B61A8DCE1EDDAA7E0042FF6B /* MainClass */,
+				B61A8DCD1EDDAA570042FF6B /* LoginClass */,
 				B6DBD49F1EDD518900008466 /* AppDelegate.h */,
 				B6DBD4A01EDD518900008466 /* AppDelegate.m */,
-				B6DBD4A21EDD518900008466 /* ViewController.h */,
-				B6DBD4A31EDD518900008466 /* ViewController.m */,
 				B6DBD4A81EDD518900008466 /* Assets.xcassets */,
 				B6DBD4AA1EDD518900008466 /* LaunchScreen.storyboard */,
 				B6DBD4AD1EDD518900008466 /* Info.plist */,
@@ -260,6 +318,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B61A8DC61EDD9E9E0042FF6B /* User.m in Sources */,
+				B61A8DD41EDDAAD80042FF6B /* MainViewController.m in Sources */,
+				B61A8DDA1EDDB0550042FF6B /* MainCell.m in Sources */,
+				B61A8DD71EDDAF840042FF6B /* TableViewModel.m in Sources */,
 				B6DBD4A41EDD518900008466 /* ViewController.m in Sources */,
 				B6DBD4A11EDD518900008466 /* AppDelegate.m in Sources */,
 				B61A8DC91EDD9EE80042FF6B /* LoginViewModel.m in Sources */,

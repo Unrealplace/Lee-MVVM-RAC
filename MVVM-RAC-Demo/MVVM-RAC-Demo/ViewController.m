@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "LoginViewModel.h"
 #import "User.h"
+#import "MainViewController.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *UserT;
@@ -23,8 +24,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self bindModel];
-    
-
 }
 -(void)bindModel{
 
@@ -32,10 +31,14 @@
     RAC(self.viewModel,userName) = self.UserT.rac_textSignal;
     RAC(self.viewModel,passWord) = self.PassT.rac_textSignal;
     RAC(self.LoginBtn,enabled)   = [self.viewModel validSignal];
+    @weakify(self);
     [self.viewModel.successSubject subscribeNext:^(id x) {
+        @strongify(self);
         User * user = x[0];
         NSLog(@"%@--->>%@",user.username,user.password);
         NSLog(@"login success");
+        MainViewController * vc = [MainViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
         
     }];
     [self.viewModel.failureSubject subscribeNext:^(id x) {
@@ -51,7 +54,11 @@
     
 }
 
+-(void)dealloc{
 
+    NSLog(@"dealloc");
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
