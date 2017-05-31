@@ -40,6 +40,9 @@
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="97W-ia-8dL">
                                 <rect key="frame" x="139" y="127" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="i61-9E-FfX"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -62,6 +65,8 @@
                         <constraints>
                             <constraint firstItem="SV9-P1-aHn" firstAttribute="centerX" secondItem="97W-ia-8dL" secondAttribute="centerX" id="0RK-1U-h7J"/>
                             <constraint firstItem="SV9-P1-aHn" firstAttribute="width" secondItem="97W-ia-8dL" secondAttribute="width" id="JfP-Ii-Fbg"/>
+                            <constraint firstItem="SV9-P1-aHn" firstAttribute="height" secondItem="97W-ia-8dL" secondAttribute="height" id="Kmd-43-QKZ"/>
+                            <constraint firstItem="BLj-kY-TsL" firstAttribute="height" secondItem="SV9-P1-aHn" secondAttribute="height" id="Rhu-BP-vMe"/>
                             <constraint firstItem="BLj-kY-TsL" firstAttribute="top" secondItem="SV9-P1-aHn" secondAttribute="bottom" constant="30" id="SCa-fx-bwV"/>
                             <constraint firstItem="97W-ia-8dL" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="a9x-7G-JA1"/>
                             <constraint firstItem="BLj-kY-TsL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cGb-3N-FCw"/>

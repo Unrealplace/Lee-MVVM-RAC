@@ -25,6 +25,12 @@
     [super viewDidLoad];
     [self bindModel];
 }
+-(void)viewWillDisappear:(BOOL)animated{
+
+    [super viewWillDisappear:YES];
+    [[UIApplication sharedApplication].keyWindow endEditing:YES];
+    
+}
 -(void)bindModel{
 
     self.viewModel = [[LoginViewModel alloc] init];

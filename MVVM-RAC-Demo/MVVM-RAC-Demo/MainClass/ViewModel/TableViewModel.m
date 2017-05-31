@@ -29,7 +29,6 @@ static NSString * mainCellID = @"main";
     });
 }
 
-
 -(void)handleWithTable:(UITableView*)table{
 
     table.dataSource = self;

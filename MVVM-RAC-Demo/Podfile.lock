@@ -7,15 +7,18 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
+  - SVProgressHUD (2.1.2)
 
 DEPENDENCIES:
   - Masonry (~> 1.0.2)
   - ReactiveCocoa (~> 2.5)
+  - SVProgressHUD (~> 2.1.2)
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
 
-PODFILE CHECKSUM: a3b1f67220945eedb0e608a84384b28073a4d40f
+PODFILE CHECKSUM: 41513f47fdfe5d2ebed87600e2d7dc0780ccccd5
 
 COCOAPODS: 1.2.0

@@ -23,6 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
     [self.ViewModel requestDataandSetUISuccessBlock:^{
          
         [self.ViewModel handleWithTable:self.showTableView];
@@ -54,8 +56,16 @@
         _noDataView = [UIView new];
         [self.view addSubview:_noDataView];
         _noDataView.backgroundColor = [UIColor redColor];
+        UILabel * noDataLabel = [UILabel new];
+        noDataLabel.text  = @"获取数据失败";
+        [_noDataView addSubview:noDataLabel];
         [_noDataView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.right.top.bottom.mas_equalTo(self.view);
+        }];
+        [noDataLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.centerX.mas_equalTo(_noDataView.mas_centerX);
+            make.centerY.mas_equalTo(_noDataView.mas_centerY);
+
         }];
     }
     return _noDataView;

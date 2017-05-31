@@ -229,6 +229,7 @@
 				TargetAttributes = {
 					B6DBD4981EDD518900008466 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q9SZGQAPK6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -444,6 +445,7 @@
 			baseConfigurationReference = F341B4BC3BC6A96698A8BA20 /* Pods-MVVM-RAC-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q9SZGQAPK6;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -452,6 +454,7 @@
 					"${SRCROOT}/**",
 				);
 				INFOPLIST_FILE = "MVVM-RAC-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LiYang.start.MVVM-RAC-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,6 +466,7 @@
 			baseConfigurationReference = F9AA1ECE6D94281A1544F2F7 /* Pods-MVVM-RAC-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q9SZGQAPK6;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -471,6 +475,7 @@
 					"${SRCROOT}/**",
 				);
 				INFOPLIST_FILE = "MVVM-RAC-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LiYang.start.MVVM-RAC-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
